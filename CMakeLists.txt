@@ -30,9 +30,9 @@ option( BGFX_INSTALL          "Create installation target."                   OF
 option( BGFX_INSTALL_EXAMPLES "Install examples and their runtimes."          OFF )
 option( BGFX_CUSTOM_TARGETS   "Include convenience custom targets."           ON  )
 option( BGFX_USE_OVR          "Build with OVR support."                       OFF )
-option( BGFX_AMALGAMATED      "Amalgamated bgfx build for faster compilation" OFF )
-option( BX_AMALGAMATED        "Amalgamated bx build for faster compilation"   OFF )
-option( BGFX_CONFIG_DEBUG     "Enables debug configuration on all builds"     OFF )
+option( BGFX_AMALGAMATED      "Amalgamated bgfx build for faster compilation" ON )
+option( BX_AMALGAMATED        "Amalgamated bx build for faster compilation"   ON )
+option( BGFX_CONFIG_DEBUG     "Enables debug configuration on all builds"     ON )
 option( BGFX_CONFIG_RENDERER_WEBGPU     "Enables the webgpu renderer"         OFF )
 
 set( BGFX_OPENGL_VERSION   ""       CACHE STRING "Specify minimum opengl version" )
